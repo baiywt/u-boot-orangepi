@@ -10,8 +10,8 @@
 #include <dt-bindings/input/input.h>
 
 / {
-	model = "Rockchip RK3568 Evaluation Board";
-	compatible = "rockchip,rk3568-evb", "rockchip,rk3568";
+	model = "Orange Pi CM4";
+	compatible = "rockchip,rk3566-orangepi-cm4", "rockchip,rk3568";
 
 	dc_12v: dc-12v {
 		u-boot,dm-pre-reloc;
